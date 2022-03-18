@@ -2,6 +2,7 @@ public class BMW extends Car {
     @Override
     public void carGoes() {
         super.carGoes();
+        GAS--;
         System.out.println(" " + getClass());
     }
 
