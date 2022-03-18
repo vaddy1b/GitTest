@@ -1,6 +1,6 @@
 public class Car implements CarActions{
 
-    int gas;
+    protected static int GAS = 10;
 
     @Override
     public void carGoes() {

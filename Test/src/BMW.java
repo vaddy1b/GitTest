@@ -18,6 +18,8 @@ public class BMW extends Car {
 
     @Override
     public boolean fuelEnough() {
+        if (GAS>5)
+            return true;
         return super.fuelEnough();
     }
 }
